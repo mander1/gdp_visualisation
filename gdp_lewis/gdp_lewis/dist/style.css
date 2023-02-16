@@ -1,0 +1,26 @@
+html, body {
+    color: #ffffff;
+    font-family: Courier,"Helvetica Neue",Courier,sans-serif;
+    font-size: 20px;
+    background: linear-gradient(#0099ff, #a1a1a1);
+}
+body {text-align: center;}
+svg {border: 1px white; margin-top: 100px}
+.bar:hover {
+    fill: red;
+  }
+ svg {
+    box-shadow: 5px 10px #888888;
+ } 
+#tooltip {
+    color:rgb(43, 3, 3);
+    display: flex;
+    position: absolute;
+    text-align: center;
+    width: 140px;
+    height: 45px;
+    padding: 2px;
+    font: 12px;
+    background: rgb(183, 191, 201);
+    box-shadow: 5px 5px 10px;
+}
